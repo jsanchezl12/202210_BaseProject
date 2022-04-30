@@ -1,0 +1,29 @@
+
+<div class="container-fluid">
+  <div class="TituloPg">El aroma magico</div>
+  <hr/>
+  <div class="banner">
+    <img class="img-fluid imgBanner" alt="Responsive image" src="https://images.squarespace-cdn.com/content/v1/552fcd72e4b03d0b9a81f222/1488429423299-AV1221HLZ7BCLQHSMYFS/BANNER.jpg?format=2500w">
+  </div>
+  <p>
+    cafe-list works!
+  </p>
+  <table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Nombre</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Region</th>
+      </tr>
+    </thead>
+    <tbody >
+      <tr *ngFor="let cafe of cafes">
+        <th scope="row">{{cafe.id}}</th>
+        <td>{{cafe.nombre}}</td>
+        <td>{{cafe.tipo}}</td>
+        <td>{{cafe.region}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
