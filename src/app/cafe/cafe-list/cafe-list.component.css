@@ -5,6 +5,19 @@
 }
 
 .thead_st{
-  background-color: black;
+  background-color: #212529;
   color:white;
+}
+
+footer{
+  bottom: 0;
+  position: relative;
+  width: 100%;
+}
+
+.footer {
+  margin: auto;
+  width: 100%;
+  text-align:center;
+  padding:10px;
 }
