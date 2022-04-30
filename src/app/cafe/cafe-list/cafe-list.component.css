@@ -3,3 +3,8 @@
   height: 300px;
   object-fit: cover;
 }
+
+.thead_st{
+  background-color: black;
+  color:white;
+}
